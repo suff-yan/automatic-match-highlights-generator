@@ -133,7 +133,7 @@ video = VideoFileClip(VIDEO_PATH)
 
 clips = []
 for start, end in final_segments:
-    clips.append(video.subclip(start, end))
+    clips.append(video.subclipped(start, end))
 
 final_video = concatenate_videoclips(clips)
 final_video.write_videofile(OUTPUT_PATH)
