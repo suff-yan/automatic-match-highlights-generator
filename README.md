@@ -49,3 +49,6 @@ Detect scoreboards
 Detect replay graphics
 Scene change detection
 7. noisereduce
+
+-Sufiyan & Syed
+
